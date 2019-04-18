@@ -799,10 +799,13 @@ Then,</p>
 </blockquote>
 </div>
 <div class="paragraph">
-<p>我们以 \(p_t = p(t,Y_t)\) 的形式处理 \(p_t\) 来寻求一个均衡代币价格，其中 \(p(t,Y_t)\) 是其参数的足够充分的光滑函数（定义域内连续可导）。应用伊藤引理，我们获得代币价格方程的偏微分方程：</p>
+<p>我们以 \(p_t = p(t,Y_t)\) 的形式处理 \(p_t\) 来寻求一个均衡代币价格，其中 \(p(t,Y_t)\) 是其参数的足够充分的光滑函数（定义域内连续可导）。应用<a href="https://en.wikipedia.org/wiki/Itô%27s_lemma">伊藤引理</a>，我们获得代币价格方程的偏微分方程：</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="icons/Eq(7.3).png" alt="Eq(7.3)"></span></p>
+<p>\begin{equation}
+\frac{\partial p}{\partial t} + \frac {\partial p} {\partial Y} g_{Y}^{Q}(t) Y + \frac {1}{2} \frac {\partial^{2} p} {\partial Y^{2}} \sigma(t)^{2} Y^{2} - \lambda_{f}  p + \frac {p} {p-k Y} (c+k r(t)) Y = 0
+\quad \quad \quad \quad \quad (7.3)
+\end{equation}</p>
 </div>
 <div class="quoteblock">
 <blockquote>
@@ -900,12 +903,12 @@ Then,</p>
 <a href="#_footnoteref_2">2</a>. We implicitly assume that all elements of the model, e.g., the growth rate of  \(Y_t\)  , are properly restricted so that tokens have a ﬁnite value in equilibrium.（我们暗含假设模型的所有要素，例如 \(Y_t\) 的增长率，都被适当的限制，因此代币在平衡时具有有限的价值。）
 </div>
 <div class="footnote" id="_footnotedef_3">
-<a href="#_footnoteref_3">3</a>. To see how this term is determined, note footnotethat all new tokens accrue to the validators. Therefore, if validators start the period \([t, t + dt)\) with a fraction \(ϕ_t\) of the tokens, they end the period with tokens： （要了解这一项是如何确定的，要注意，所有的新币都积累到验证者那里。因此，如果验证者在时间区间 \([t, t + dt)\) 开始时拥有的代币份额是 \(ϕ_t\) ，在时间区间结束时拥有的代币份额是：） <span class="image"><img src="icons/footnote3.png" alt="footnote3"></span>
+<a href="#_footnoteref_3">3</a>. To see how this term is determined, note footnotethat all new tokens accrue to the validators. Therefore, if validators start the period \([t, t + dt)\) with a fraction \(ϕ_t\) of the tokens, they end the period with tokens： + （要了解这一项是如何确定的，要注意，所有的新币都积累到验证者那里。因此，如果验证者在时间区间 \([t, t + dt)\) 开始时拥有的代币份额是 \(ϕ_t\) ，在时间区间结束时拥有的代币份额是：） \begin{equation} \frac{\phi_{t} + r(t) dt} {1+r(t) dt} = \left(\phi_{t} + r(t) dt \right) (1 - r(t) dt) + o(dt) = \phi_{t} + \left(1 - \phi_{t} \right) r(t) dt + o(dt) \end{equation}
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-04-13 14:29:00 +0800
+Last updated 2019-04-18 14:32:43 +0800
 </div>
 </div>
 <script type="text/x-mathjax-config">
