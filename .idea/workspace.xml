@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28cfef6f-5578-485e-9584-4b35f2b045a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,23 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <first_editor relative-caret-position="96">
+                <caret line="4" selection-start-line="4" selection-end-line="4" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="1008">
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CH02_Block_Rewards.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17544">
-              <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+            <state relative-caret-position="1200">
+              <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -60,6 +60,7 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/index1.html" />
       </list>
     </option>
   </component>
@@ -120,16 +121,17 @@
       <updated>1555571065284</updated>
       <workItem from="1555571066690" duration="228000" />
       <workItem from="1555571575983" duration="33000" />
-      <workItem from="1555572278988" duration="1304000" />
+      <workItem from="1555572278988" duration="1383000" />
+      <workItem from="1555738512482" duration="362000" />
+      <workItem from="1555744693827" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1565000" />
+    <option name="totallyTimeSpent" value="2018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -154,30 +156,31 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CH02_Block_Rewards.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17544">
-          <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="21" />
+    <entry file="file://$PROJECT_DIR$/index1.html" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="96">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CH01_Valuation.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/CH02_Block_Rewards.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
         </state>
       </provider>
     </entry>
