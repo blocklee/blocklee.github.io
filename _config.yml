@@ -5,7 +5,7 @@ author: blocklee
 url: http://blocklee.github.io
 resume_site: http://blocklee.github.io/
 github: https://github.com/blocklee/
-baseurl: "MyBlog"
+baseurl: "/MyBlog"
 description: 生命不止,折腾不休.
 meta_description: 倚栏听风;个人博客;生命不止,折腾不休.
 motto: It's our wits that make us men.
